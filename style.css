@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-size: 30px;
+    font-weight: 500;
+
+    color: #FFFFFF;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator-container{
+    display: flex;
+    flex-direction: column;
+    width: 530px;
+    height: 900px;
+    border: 1px solid green;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #000000;
+}
+
+.mac-buttons{
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+.display{
+    width: 500px;
+    height: 200px;
+    border: 1px solid black;
+    padding: 10px;
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+    font-size: 60px;
+}
+
+.buttons{
+    width: 500px;
+    height: 600px;
+    
+    margin-top: 20px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.grey{
+    background-color: #5C5C5F
+}
+
+.orange{
+    background-color: #FF9F0A;
+}
+
+.black{
+    background-color: #2A2A2C;
+}
+
+.button-first{
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    background-color: #FE5F57;
+}
+
+.button-second{
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    background-color: #FEBB2F;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.button-third{
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    background-color: #29C840;
+}
+
+.button{
+    display: flex;
+    flex-basis: 25%;
+    height: 120px;
+    border: 1px solid grey;
+    justify-content: center;
+    align-items: center;
+    
+    box-sizing: border-box;
+    margin: 0px;
+    
+}
+
+.zero{flex-grow: 1;}
+
+.button:hover{
+    background-color: #CDCDCD;
+}
+
+.button:active{
+    background-color: blue;
+}
+

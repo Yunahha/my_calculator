@@ -3,10 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 
-    font-size: 30px;
+    font-size: 45px;
     font-weight: 500;
 
-    color: #FFFFFF;
+    color: #7F7F7F;
 }
 
 html, body{
@@ -24,11 +24,13 @@ body{
     flex-direction: column;
     width: 530px;
     height: 900px;
-    border: 1px solid green;
+    border: 1px solid #e8e8e8;
+    border-radius: 5%;
     justify-content: center;
     align-items: center;
 
-    background-color: #000000;
+    background-color: #D4D4D4;
+    box-shadow: 3px 0px 0px;
 }
 
 .mac-buttons{
@@ -41,8 +43,7 @@ body{
 
 .display{
     width: 500px;
-    height: 200px;
-    border: 1px solid black;
+    height: 200px; 
     padding: 10px;
 
     display: flex;
@@ -50,6 +51,10 @@ body{
     align-items: center;
 
     font-size: 60px;
+    color: #000000;
+    background-color: #AAAAAA;
+
+    box-shadow: inset 0 0 10px;
 }
 
 .buttons{
@@ -64,22 +69,11 @@ body{
     align-content: center;
 }
 
-.grey{
-    background-color: #5C5C5F
-}
-
-.orange{
-    background-color: #FF9F0A;
-}
-
-.black{
-    background-color: #2A2A2C;
-}
-
 .button-first{
     width: 25px;
     height: 25px;
     border-radius: 100%;
+    margin-left: 5px;
     background-color: #FE5F57;
 }
 
@@ -101,24 +95,89 @@ body{
 
 .button{
     display: flex;
-    flex-basis: 25%;
+
+    width: 120px;
     height: 120px;
-    border: 1px solid grey;
+    border: 1px solid #cbcbcb;
     justify-content: center;
     align-items: center;
     
     box-sizing: border-box;
     margin: 0px;
     
+    border-radius: 100px;
+
+    box-shadow: 2px 0px 0px;
 }
 
 .zero{flex-grow: 1;}
 
-.button:hover{
-    background-color: #CDCDCD;
+.first{
+    background-color: #E9D7DB
 }
 
-.button:active{
-    background-color: blue;
+.first:hover{
+    background-color: #E9D7DB;
+    opacity: 0.59
 }
 
+.first:active{
+    background-color: #E9D7DB;
+    opacity: 0.43
+}
+
+.second{
+    background-color: #DABABD;
+}
+
+.second:hover{
+    background-color: #DABABD;
+    opacity: 0.59
+}
+
+.second:active{
+    background-color: #DABABD;
+    opacity: 0.43
+}
+
+.third{
+    background-color: #D49EA0;
+}
+
+.third:hover{
+    background-color: #D49EA0;
+    opacity: 0.59
+}
+
+.third:active{
+    background-color: #D49EA0;
+    opacity: 0.43
+}
+
+.fourth{
+    background-color: #D28077;
+}
+
+.fourth:hover{
+    background-color: #D28077;
+    opacity: 0.59
+}
+
+.fourth:active{
+    background-color: #D28077;
+    opacity: 0.43
+}
+
+.fifth{
+    background-color: #D07471;
+}
+
+.fifth:hover{
+    background-color: #D07471;
+    opacity: 0.59
+}
+
+.fifth:active{
+    background-color: #D07471;
+    opacity: 0.43
+}
